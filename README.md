@@ -1,26 +1,25 @@
 # -Iris-Flower-Classification-using-Machine-Learning-
- Iris Flower Classification using Machine Learning
-This repository contains a machine learning project based on the Iris dataset, one of the most famous datasets in machine learning and data analysis. The project demonstrates exploratory data analysis (EDA) and the development of a classification model to predict the species of iris flowers.
+ The Iris dataset is a classic dataset in the field of machine learning and statistics. It contains measurements of three different species of the iris flower (Iris-setosa, Iris-versicolor, and Iris-virginica) and includes the following attributes:
 
-Features of the Project
-Dataset Analysis:
-Descriptive statistics for all features (sepal length, sepal width, petal length, petal width).
-Distribution plots and correlation analysis.
-Pairwise comparisons between features.
-Data Visualization:
-Scatter plots to visualize feature relationships.
-Species-wise comparisons using box plots and violin plots.
-Machine Learning Pipeline:
-Data preprocessing (scaling and encoding).
-Training a classification model using algorithms like Logistic Regression, Decision Trees, or Random Forests.
-Model evaluation using accuracy, precision, recall, and F1-score.
-Deployment (Optional):
-Interactive Streamlit web app for predictions (bonus feature if needed).
-Dataset Information
-The Iris dataset contains 150 records of iris flowers, with the following attributes:
+Feature	Description	Data Type
+SepalLengthCm	Length of the sepal in centimeters	Float
+SepalWidthCm	Width of the sepal in centimeters	Float
+PetalLengthCm	Length of the petal in centimeters	Float
+PetalWidthCm	Width of the petal in centimeters	Float
+Species	Type of iris flower (target variable)	Categorical
+Key Dataset Details
+Number of Records: 150
+Number of Features: 4 numerical features and 1 categorical target feature.
+Target Classes:
+Iris-setosa
+Iris-versicolor
+Iris-virginica
+Source
+The Iris dataset is publicly available and originally published by R.A. Fisher. It is commonly used for educational purposes in data science and machine learning. You can find the dataset in the UCI Machine Learning Repository.
 
-Sepal Length (cm): Length of the sepal.
-Sepal Width (cm): Width of the sepal.
-Petal Length (cm): Length of the petal.
-Petal Width (cm): Width of the petal.
-Species: The type of iris flower (Iris-setosa, Iris-versicolor, or Iris-virginica).
+
+ Iris dataset is used for:
+
+Exploratory Data Analysis (EDA): Understanding the distribution and relationships between features.
+Machine Learning Model Development: Predicting the species of the iris flower based on its measurements.
+Model Evaluation: Assessing the model's performance using metrics like accuracy, precision, recall, and F1-score.
